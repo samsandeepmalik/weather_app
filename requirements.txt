@@ -1,0 +1,5 @@
+requests
+python-csv
+pyyaml
+pymysql
+cryptography

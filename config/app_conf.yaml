@@ -1,0 +1,20 @@
+API:
+  base_url: http://api.openweathermap.org/data/2.5/onecall?
+  past_data_base_url: http://api.openweathermap.org/data/2.5/onecall/timemachine?
+#  api_key: e07e7ec1c701dfe3bb5e0fe4e7dfce60
+
+ACTIVE_DB: MYSQL
+
+DB:
+  MYSQL:
+    name: weather
+    host: localhost
+    port: 3306
+    user: user
+    password: password
+
+METADATA:
+  LOCATIONS: !include locations.yaml
+
+MONITORING:
+  LOG_LOCATION: ./log/weather_logs
